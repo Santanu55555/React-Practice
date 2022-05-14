@@ -15,12 +15,12 @@
 
 .generator__header {
   text-align: center;
-  color: rgb(173, 36, 36);
+  color: rgb(196, 152, 152);
   margin-bottom: 20px;
 }
 
 .generator__password {
-  background-color: #f85b5d;
+  background-color: #b78586;
   padding: 13px 10px;
   color: #fff;
   margin-bottom: 15px;
@@ -31,7 +31,7 @@
 
 .copy__btn {
   color: #fff;
-  background: #f6859b;
+  background: #935f6a;
   border: none;
   cursor: pointer;
   height:20px;
@@ -39,7 +39,7 @@
 }
 
 .generator__btn {
-  background: #cf6d81;
+  background: #988a8d;
   border: none;
   width: 100%;
   margin-top: 10px;
