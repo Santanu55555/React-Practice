@@ -19,7 +19,12 @@ const App=()=> {
         
         
       }
-
+      else if((result[result.length-1]==="+" && event.target.value=== "-" )||
+       (result[result.length-1]==="-" && event.target.value=== "-")||
+       (result[result.length-1]==="*"&& event.target.value=== "*")||
+       (result[result.length-1]==="/"&& event.target.value=== "/")){
+              setResult(result.concat(event.target.value))
+      }
      else{
         setResult(result.concat(event.target.value))
      }
