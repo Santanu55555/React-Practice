@@ -11,11 +11,12 @@
   border-radius: 10px;
   box-shadow: 0px 2px 10px rgba(245, 244, 244, 0.863);
   padding: 30px;
+  width: 400px;
 }
 
 .generator__header {
   text-align: center;
-  color: rgb(196, 152, 152);
+  color: rgb(24, 17, 17);
   margin-bottom: 20px;
 }
 
@@ -31,11 +32,14 @@
 
 .copy__btn {
   color: #fff;
-  background: #935f6a;
+  background: #2b1a1e;
   border: none;
   cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(245, 244, 244, 0.863);
   height:20px;
-  width:30px;
+  width:50px;
+  border-radius: 5px;
+
 }
 
 .generator__btn {
